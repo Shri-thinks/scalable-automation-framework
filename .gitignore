@@ -1,0 +1,40 @@
+# --- Eclipse IDE Specifics ---
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.project
+.classpath
+.factorypath
+
+# --- Build Tools (Maven & Gradle) ---
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+pom.xml.versionsBackup
+release.properties
+.gradle/
+build/
+
+# --- TestNG Outputs ---
+test-output/
+job-configs/
+testng-failed.xml
+
+# --- OS / Logs Generated Files ---
+*.log
+.DS_Store
+Thumbs.db
+
+# --- Environment & Credentials (Crucial for Automation Security) ---
+.env
+*.properties
+!src/main/resources/*.properties
+!src/test/resources/*.properties
